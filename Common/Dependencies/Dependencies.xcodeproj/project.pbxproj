@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		3D46400722318AC2000FB12F /* Dependencies.h in Headers */ = {isa = PBXBuildFile; fileRef = 3D46400522318AC2000FB12F /* Dependencies.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		3D46401922318F6C000FB12F /* Dependencies.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D46401822318F6C000FB12F /* Dependencies.swift */; };
+		3D46401D2231901D000FB12F /* Chat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D46401C2231901D000FB12F /* Chat.swift */; };
+		3D46402222319060000FB12F /* Service.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D46402122319060000FB12F /* Service.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -16,6 +18,8 @@
 		3D46400522318AC2000FB12F /* Dependencies.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Dependencies.h; sourceTree = "<group>"; };
 		3D46400622318AC2000FB12F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3D46401822318F6C000FB12F /* Dependencies.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dependencies.swift; sourceTree = "<group>"; };
+		3D46401C2231901D000FB12F /* Chat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chat.swift; sourceTree = "<group>"; };
+		3D46402122319060000FB12F /* Service.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Service.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -23,6 +27,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3D46402222319060000FB12F /* Service.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -34,6 +39,7 @@
 			children = (
 				3D46400422318AC2000FB12F /* Dependencies */,
 				3D46400322318AC2000FB12F /* Products */,
+				3D46402022319060000FB12F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -50,9 +56,18 @@
 			children = (
 				3D46400522318AC2000FB12F /* Dependencies.h */,
 				3D46401822318F6C000FB12F /* Dependencies.swift */,
+				3D46401C2231901D000FB12F /* Chat.swift */,
 				3D46400622318AC2000FB12F /* Info.plist */,
 			);
 			path = Dependencies;
+			sourceTree = "<group>";
+		};
+		3D46402022319060000FB12F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3D46402122319060000FB12F /* Service.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -135,6 +150,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3D46401922318F6C000FB12F /* Dependencies.swift in Sources */,
+				3D46401D2231901D000FB12F /* Chat.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

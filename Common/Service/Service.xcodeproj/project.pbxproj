@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		3D463FB92231882F000FB12F /* Service.h in Headers */ = {isa = PBXBuildFile; fileRef = 3D463FB72231882F000FB12F /* Service.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		3D463FC8223188F0000FB12F /* Utils.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D463FC7223188F0000FB12F /* Utils.framework */; };
+		3D46401F2231903A000FB12F /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D46401E2231903A000FB12F /* Model.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -17,6 +18,7 @@
 		3D463FB82231882F000FB12F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3D463FC02231884B000FB12F /* Utils.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Utils.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3D463FC7223188F0000FB12F /* Utils.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Utils.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3D46401E2231903A000FB12F /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +54,7 @@
 			isa = PBXGroup;
 			children = (
 				3D463FB72231882F000FB12F /* Service.h */,
+				3D46401E2231903A000FB12F /* Model.swift */,
 				3D463FB82231882F000FB12F /* Info.plist */,
 			);
 			path = Service;
@@ -109,6 +112,7 @@
 				TargetAttributes = {
 					3D463FB32231882F000FB12F = {
 						CreatedOnToolsVersion = 10.1;
+						LastSwiftMigration = 1010;
 					};
 				};
 			};
@@ -144,6 +148,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3D46401F2231903A000FB12F /* Model.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -275,6 +280,7 @@
 		3D463FBD2231882F000FB12F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
@@ -291,6 +297,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.depop.Service;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -299,6 +306,7 @@
 		3D463FBE2231882F000FB12F /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
