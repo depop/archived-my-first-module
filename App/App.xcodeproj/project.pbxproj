@@ -15,6 +15,7 @@
 		3D463F6222318647000FB12F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D463F6022318647000FB12F /* LaunchScreen.storyboard */; };
 		3D463FC4223188EA000FB12F /* Service.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D463FC3223188EA000FB12F /* Service.framework */; };
 		3D463FC6223188EA000FB12F /* Utils.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D463FC5223188EA000FB12F /* Utils.framework */; };
+		3D46401B22318FDF000FB12F /* AppDependencies.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D46401A22318FDF000FB12F /* AppDependencies.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		3D463F6322318647000FB12F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3D463FC3223188EA000FB12F /* Service.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Service.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3D463FC5223188EA000FB12F /* Utils.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Utils.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3D46401A22318FDF000FB12F /* AppDependencies.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDependencies.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +66,7 @@
 			isa = PBXGroup;
 			children = (
 				3D463F5522318647000FB12F /* AppDelegate.swift */,
+				3D46401A22318FDF000FB12F /* AppDependencies.swift */,
 				3D463F5722318647000FB12F /* FirstViewController.swift */,
 				3D463F5922318647000FB12F /* SecondViewController.swift */,
 				3D463F5B22318647000FB12F /* Main.storyboard */,
@@ -154,6 +157,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3D46401B22318FDF000FB12F /* AppDependencies.swift in Sources */,
 				3D463F5A22318647000FB12F /* SecondViewController.swift in Sources */,
 				3D463F5622318647000FB12F /* AppDelegate.swift in Sources */,
 				3D463F5822318647000FB12F /* FirstViewController.swift in Sources */,
