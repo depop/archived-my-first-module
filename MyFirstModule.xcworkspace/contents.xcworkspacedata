@@ -8,6 +8,9 @@
       location = "container:"
       name = "Common">
       <FileRef
+         location = "group:Common/Service/Service.xcodeproj">
+      </FileRef>
+      <FileRef
          location = "group:Common/Utils/Utils.xcodeproj">
       </FileRef>
    </Group>
