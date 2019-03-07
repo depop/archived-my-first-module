@@ -27,9 +27,10 @@ class UserProfileViewController: UIViewController {
 
         // Do any additional setup after loading the view.
         view.backgroundColor = UIColor.blue
+        navigationItem.rightBarButtonItem = UIBarButtonItem(title: "Chat", style: .plain, target: self, action: #selector(openChat))
     }
     
-    func openChat() {
+    @objc func openChat() {
         let module = Dependencies.shared.chatModule
         let chatScreen = module.messagesScreen(user: user, product: nil)
         
