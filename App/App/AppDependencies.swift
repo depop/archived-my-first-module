@@ -7,7 +7,15 @@
 //
 
 import UIKit
+import Dependencies
+import Chat
 
 func setUpDependencies() {
     // register dependencies here
+    let dependencies = Dependencies.shared
+    
+    dependencies.register(ChatModuleProtocol.self) { 
+        return ChatModule()
+    }
+
 }
