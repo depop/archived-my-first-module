@@ -74,7 +74,7 @@ private func createModel() -> [ConversationModel] {
 
 private func createViewModel(model: [ConversationModel]) -> [ConversationViewModel] {
     return model.map({ item in
-        let debugDescription = "user: \(item.user.identifier) product: \((item.product?.identifier ?? "none"))"
+        let debugDescription = "User: \(item.user.identifier) - Product: \((item.product?.identifier ?? "none"))"
         return ConversationViewModel(title: debugDescription)
     })
 }

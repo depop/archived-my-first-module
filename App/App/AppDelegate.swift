@@ -30,8 +30,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         window.makeKeyAndVisible()
         
         tabBarController.viewControllers = [
-            Dependencies.shared.chatModule.conversationsScreen(),
-            Dependencies.shared.userProfileModule.userProfileScreen(user: currentUser())
+            firstScreen(),
+            secondScreen()
         ]
         
         self.window = window
@@ -41,4 +41,22 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 private func currentUser() -> User {
     return User(identifier: "u")
+}
+
+private func firstScreen() -> UIViewController {
+    let vc = embedInNav(Dependencies.shared.chatModule.conversationsScreen())
+    vc.tabBarItem.title = "Conversations"
+    vc.tabBarItem.image = UIImage(named: "first")
+    return vc
+}
+
+private func secondScreen() -> UIViewController {
+    let vc = embedInNav(Dependencies.shared.userProfileModule.userProfileScreen(user: currentUser()))
+    vc.tabBarItem.title = "My Profile"
+    vc.tabBarItem.image = UIImage(named: "second")
+    return vc
+}
+
+private func embedInNav(_ root: UIViewController) -> UINavigationController {
+    return UINavigationController(rootViewController: root)
 }
