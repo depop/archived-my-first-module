@@ -9,7 +9,17 @@
 import UIKit
 
 public struct User {
+    public let identifier: String
+    
+    public init(identifier: String) {
+        self.identifier = identifier
+    }
 }
 
 public struct Product {
+    public let identifier: String
+    
+    public init(identifier: String) {
+        self.identifier = identifier
+    }
 }
