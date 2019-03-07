@@ -20,21 +20,13 @@ public class ChatModule: ChatModuleProtocol {
     
     public func conversationsScreen() -> UIViewController {
         // configure and return a view controller
-        return ConversationScreen(nibName: nil, bundle: nil)
+        return ConversationsViewController()
     }
     
     public func messagesScreen(user: User, product: Product?) -> UIViewController {
         // configure and return a view controller
-        return MessagesScreen(nibName: nil, bundle: nil)
+        return MessagesViewController(user: user, product: product)
     }
-}
-
-private class ConversationScreen: UIViewController {
-    
-}
-
-private class MessagesScreen: UIViewController {
-    
 }
 
 private class MessageSender: ChatMessageSender {

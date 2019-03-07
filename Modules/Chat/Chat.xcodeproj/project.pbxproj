@@ -12,6 +12,8 @@
 		3D463FE2223189FF000FB12F /* Utils.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D463FE1223189FF000FB12F /* Utils.framework */; };
 		3D46400E22318AD5000FB12F /* Dependencies.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D46400D22318AD5000FB12F /* Dependencies.framework */; };
 		3D464024223190D4000FB12F /* ChatModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D464023223190D4000FB12F /* ChatModule.swift */; };
+		3D4640342231963E000FB12F /* MessagesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D4640332231963E000FB12F /* MessagesViewController.swift */; };
+		3D464036223196E8000FB12F /* ConversationsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D464035223196E8000FB12F /* ConversationsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		3D463FE1223189FF000FB12F /* Utils.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Utils.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3D46400D22318AD5000FB12F /* Dependencies.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Dependencies.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3D464023223190D4000FB12F /* ChatModule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatModule.swift; sourceTree = "<group>"; };
+		3D4640332231963E000FB12F /* MessagesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessagesViewController.swift; sourceTree = "<group>"; };
+		3D464035223196E8000FB12F /* ConversationsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConversationsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +64,8 @@
 			children = (
 				3D463FD6223189F0000FB12F /* Chat.h */,
 				3D464023223190D4000FB12F /* ChatModule.swift */,
+				3D464035223196E8000FB12F /* ConversationsViewController.swift */,
+				3D4640332231963E000FB12F /* MessagesViewController.swift */,
 				3D463FD7223189F0000FB12F /* Info.plist */,
 			);
 			path = Chat;
@@ -154,6 +160,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3D464036223196E8000FB12F /* ConversationsViewController.swift in Sources */,
+				3D4640342231963E000FB12F /* MessagesViewController.swift in Sources */,
 				3D464024223190D4000FB12F /* ChatModule.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
