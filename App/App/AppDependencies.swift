@@ -9,13 +9,17 @@
 import UIKit
 import Dependencies
 import Chat
+import UserProfile
 
 func setUpDependencies() {
     // register dependencies here
     let dependencies = Dependencies.shared
     
-    dependencies.register(ChatModuleProtocol.self) { 
+    dependencies.register(ChatModuleProtocol.self) {
         return ChatModule()
+    }
+    dependencies.register(UserProfileModuleProtocol.self) {
+        return UserProfileModule()
     }
 
 }

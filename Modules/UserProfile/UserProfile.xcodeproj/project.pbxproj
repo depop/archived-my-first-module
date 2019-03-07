@@ -11,6 +11,8 @@
 		3D46401122318ADC000FB12F /* Dependencies.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D46401022318ADC000FB12F /* Dependencies.framework */; };
 		3D46401322318AE1000FB12F /* Service.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D46401222318AE1000FB12F /* Service.framework */; };
 		3D46401522318AE1000FB12F /* Utils.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D46401422318AE1000FB12F /* Utils.framework */; };
+		3D4640282231937F000FB12F /* UserProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D4640272231937F000FB12F /* UserProfileViewController.swift */; };
+		3D46402C223194B3000FB12F /* UserProfileModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D46402B223194B3000FB12F /* UserProfileModule.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +22,8 @@
 		3D46401022318ADC000FB12F /* Dependencies.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Dependencies.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3D46401222318AE1000FB12F /* Service.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Service.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3D46401422318AE1000FB12F /* Utils.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Utils.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3D4640272231937F000FB12F /* UserProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserProfileViewController.swift; sourceTree = "<group>"; };
+		3D46402B223194B3000FB12F /* UserProfileModule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserProfileModule.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +61,8 @@
 			isa = PBXGroup;
 			children = (
 				3D463FF022318A30000FB12F /* UserProfile.h */,
+				3D46402B223194B3000FB12F /* UserProfileModule.swift */,
+				3D4640272231937F000FB12F /* UserProfileViewController.swift */,
 				3D463FF122318A30000FB12F /* Info.plist */,
 			);
 			path = UserProfile;
@@ -115,6 +121,7 @@
 				TargetAttributes = {
 					3D463FEC22318A30000FB12F = {
 						CreatedOnToolsVersion = 10.1;
+						LastSwiftMigration = 1010;
 					};
 				};
 			};
@@ -150,6 +157,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3D46402C223194B3000FB12F /* UserProfileModule.swift in Sources */,
+				3D4640282231937F000FB12F /* UserProfileViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -281,6 +290,7 @@
 		3D463FF622318A30000FB12F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
@@ -297,6 +307,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.depop.UserProfile;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -305,6 +316,7 @@
 		3D463FF722318A30000FB12F /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;

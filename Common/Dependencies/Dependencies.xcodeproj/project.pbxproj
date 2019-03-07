@@ -11,6 +11,7 @@
 		3D46401922318F6C000FB12F /* Dependencies.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D46401822318F6C000FB12F /* Dependencies.swift */; };
 		3D46401D2231901D000FB12F /* Chat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D46401C2231901D000FB12F /* Chat.swift */; };
 		3D46402222319060000FB12F /* Service.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D46402122319060000FB12F /* Service.framework */; };
+		3D46402A2231945D000FB12F /* UserProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D4640292231945D000FB12F /* UserProfile.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +21,7 @@
 		3D46401822318F6C000FB12F /* Dependencies.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dependencies.swift; sourceTree = "<group>"; };
 		3D46401C2231901D000FB12F /* Chat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chat.swift; sourceTree = "<group>"; };
 		3D46402122319060000FB12F /* Service.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Service.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3D4640292231945D000FB12F /* UserProfile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserProfile.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +59,7 @@
 				3D46400522318AC2000FB12F /* Dependencies.h */,
 				3D46401822318F6C000FB12F /* Dependencies.swift */,
 				3D46401C2231901D000FB12F /* Chat.swift */,
+				3D4640292231945D000FB12F /* UserProfile.swift */,
 				3D46400622318AC2000FB12F /* Info.plist */,
 			);
 			path = Dependencies;
@@ -151,6 +154,7 @@
 			files = (
 				3D46401922318F6C000FB12F /* Dependencies.swift in Sources */,
 				3D46401D2231901D000FB12F /* Chat.swift in Sources */,
+				3D46402A2231945D000FB12F /* UserProfile.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

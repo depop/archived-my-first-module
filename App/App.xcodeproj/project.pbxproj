@@ -16,6 +16,9 @@
 		3D463FC4223188EA000FB12F /* Service.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D463FC3223188EA000FB12F /* Service.framework */; };
 		3D463FC6223188EA000FB12F /* Utils.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D463FC5223188EA000FB12F /* Utils.framework */; };
 		3D46401B22318FDF000FB12F /* AppDependencies.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D46401A22318FDF000FB12F /* AppDependencies.swift */; };
+		3D46402E223195A2000FB12F /* Chat.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D46402D223195A2000FB12F /* Chat.framework */; };
+		3D464030223195A2000FB12F /* Dependencies.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D46402F223195A2000FB12F /* Dependencies.framework */; };
+		3D464032223195A2000FB12F /* UserProfile.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D464031223195A2000FB12F /* UserProfile.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +33,9 @@
 		3D463FC3223188EA000FB12F /* Service.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Service.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3D463FC5223188EA000FB12F /* Utils.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Utils.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3D46401A22318FDF000FB12F /* AppDependencies.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDependencies.swift; sourceTree = "<group>"; };
+		3D46402D223195A2000FB12F /* Chat.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Chat.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3D46402F223195A2000FB12F /* Dependencies.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Dependencies.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3D464031223195A2000FB12F /* UserProfile.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = UserProfile.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,6 +43,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3D46402E223195A2000FB12F /* Chat.framework in Frameworks */,
+				3D464030223195A2000FB12F /* Dependencies.framework in Frameworks */,
+				3D464032223195A2000FB12F /* UserProfile.framework in Frameworks */,
 				3D463FC4223188EA000FB12F /* Service.framework in Frameworks */,
 				3D463FC6223188EA000FB12F /* Utils.framework in Frameworks */,
 			);
@@ -80,6 +89,9 @@
 		3D463FC2223188EA000FB12F /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				3D46402D223195A2000FB12F /* Chat.framework */,
+				3D46402F223195A2000FB12F /* Dependencies.framework */,
+				3D464031223195A2000FB12F /* UserProfile.framework */,
 				3D463FC3223188EA000FB12F /* Service.framework */,
 				3D463FC5223188EA000FB12F /* Utils.framework */,
 			);
