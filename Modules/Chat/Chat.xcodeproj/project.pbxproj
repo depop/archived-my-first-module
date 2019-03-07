@@ -11,6 +11,7 @@
 		3D463FE0223189FF000FB12F /* Service.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D463FDF223189FF000FB12F /* Service.framework */; };
 		3D463FE2223189FF000FB12F /* Utils.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D463FE1223189FF000FB12F /* Utils.framework */; };
 		3D46400E22318AD5000FB12F /* Dependencies.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D46400D22318AD5000FB12F /* Dependencies.framework */; };
+		3D464024223190D4000FB12F /* ChatModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D464023223190D4000FB12F /* ChatModule.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +21,7 @@
 		3D463FDF223189FF000FB12F /* Service.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Service.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3D463FE1223189FF000FB12F /* Utils.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Utils.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3D46400D22318AD5000FB12F /* Dependencies.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Dependencies.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3D464023223190D4000FB12F /* ChatModule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatModule.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +59,7 @@
 			isa = PBXGroup;
 			children = (
 				3D463FD6223189F0000FB12F /* Chat.h */,
+				3D464023223190D4000FB12F /* ChatModule.swift */,
 				3D463FD7223189F0000FB12F /* Info.plist */,
 			);
 			path = Chat;
@@ -115,6 +118,7 @@
 				TargetAttributes = {
 					3D463FD2223189F0000FB12F = {
 						CreatedOnToolsVersion = 10.1;
+						LastSwiftMigration = 1010;
 					};
 				};
 			};
@@ -150,6 +154,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3D464024223190D4000FB12F /* ChatModule.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -281,6 +286,7 @@
 		3D463FDC223189F0000FB12F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
@@ -297,6 +303,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.depop.Chat;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -305,6 +312,7 @@
 		3D463FDD223189F0000FB12F /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;

@@ -9,7 +9,7 @@
 import UIKit
 import Service
 
-public protocol ChatModule {
+public protocol ChatModuleProtocol {
     // Returns a new view controller used to show a list of conversations
     func conversationsScreen() -> UIViewController
     // Returns a new view controller used to chat with a user about a product (optional)
@@ -26,7 +26,7 @@ public protocol ChatMessageSender {
 
 extension Dependencies {
     // Now we can obtain a ChatModule
-    public var chatModule: ChatModule {
-        return resolve(ChatModule.self)!
+    public var chatModule: ChatModuleProtocol {
+        return resolve(ChatModuleProtocol.self)!
     }
 }
