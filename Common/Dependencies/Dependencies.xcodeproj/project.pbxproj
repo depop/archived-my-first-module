@@ -7,136 +7,116 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		3D463FF222318A30000FB12F /* UserProfile.h in Headers */ = {isa = PBXBuildFile; fileRef = 3D463FF022318A30000FB12F /* UserProfile.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		3D46401122318ADC000FB12F /* Dependencies.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D46401022318ADC000FB12F /* Dependencies.framework */; };
-		3D46401322318AE1000FB12F /* Service.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D46401222318AE1000FB12F /* Service.framework */; };
-		3D46401522318AE1000FB12F /* Utils.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D46401422318AE1000FB12F /* Utils.framework */; };
+		3D46400722318AC2000FB12F /* Dependencies.h in Headers */ = {isa = PBXBuildFile; fileRef = 3D46400522318AC2000FB12F /* Dependencies.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		3D463FED22318A30000FB12F /* UserProfile.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = UserProfile.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		3D463FF022318A30000FB12F /* UserProfile.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UserProfile.h; sourceTree = "<group>"; };
-		3D463FF122318A30000FB12F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		3D46401022318ADC000FB12F /* Dependencies.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Dependencies.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		3D46401222318AE1000FB12F /* Service.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Service.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		3D46401422318AE1000FB12F /* Utils.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Utils.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3D46400222318AC2000FB12F /* Dependencies.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Dependencies.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3D46400522318AC2000FB12F /* Dependencies.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Dependencies.h; sourceTree = "<group>"; };
+		3D46400622318AC2000FB12F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		3D463FEA22318A30000FB12F /* Frameworks */ = {
+		3D463FFF22318AC2000FB12F /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3D46401322318AE1000FB12F /* Service.framework in Frameworks */,
-				3D46401522318AE1000FB12F /* Utils.framework in Frameworks */,
-				3D46401122318ADC000FB12F /* Dependencies.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		3D463FE322318A30000FB12F = {
+		3D463FF822318AC2000FB12F = {
 			isa = PBXGroup;
 			children = (
-				3D463FEF22318A30000FB12F /* UserProfile */,
-				3D463FEE22318A30000FB12F /* Products */,
-				3D46400F22318ADC000FB12F /* Frameworks */,
+				3D46400422318AC2000FB12F /* Dependencies */,
+				3D46400322318AC2000FB12F /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		3D463FEE22318A30000FB12F /* Products */ = {
+		3D46400322318AC2000FB12F /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				3D463FED22318A30000FB12F /* UserProfile.framework */,
+				3D46400222318AC2000FB12F /* Dependencies.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		3D463FEF22318A30000FB12F /* UserProfile */ = {
+		3D46400422318AC2000FB12F /* Dependencies */ = {
 			isa = PBXGroup;
 			children = (
-				3D463FF022318A30000FB12F /* UserProfile.h */,
-				3D463FF122318A30000FB12F /* Info.plist */,
+				3D46400522318AC2000FB12F /* Dependencies.h */,
+				3D46400622318AC2000FB12F /* Info.plist */,
 			);
-			path = UserProfile;
-			sourceTree = "<group>";
-		};
-		3D46400F22318ADC000FB12F /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				3D46401222318AE1000FB12F /* Service.framework */,
-				3D46401422318AE1000FB12F /* Utils.framework */,
-				3D46401022318ADC000FB12F /* Dependencies.framework */,
-			);
-			name = Frameworks;
+			path = Dependencies;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		3D463FE822318A30000FB12F /* Headers */ = {
+		3D463FFD22318AC2000FB12F /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3D463FF222318A30000FB12F /* UserProfile.h in Headers */,
+				3D46400722318AC2000FB12F /* Dependencies.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		3D463FEC22318A30000FB12F /* UserProfile */ = {
+		3D46400122318AC2000FB12F /* Dependencies */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 3D463FF522318A30000FB12F /* Build configuration list for PBXNativeTarget "UserProfile" */;
+			buildConfigurationList = 3D46400A22318AC2000FB12F /* Build configuration list for PBXNativeTarget "Dependencies" */;
 			buildPhases = (
-				3D463FE822318A30000FB12F /* Headers */,
-				3D463FE922318A30000FB12F /* Sources */,
-				3D463FEA22318A30000FB12F /* Frameworks */,
-				3D463FEB22318A30000FB12F /* Resources */,
+				3D463FFD22318AC2000FB12F /* Headers */,
+				3D463FFE22318AC2000FB12F /* Sources */,
+				3D463FFF22318AC2000FB12F /* Frameworks */,
+				3D46400022318AC2000FB12F /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = UserProfile;
-			productName = UserProfile;
-			productReference = 3D463FED22318A30000FB12F /* UserProfile.framework */;
+			name = Dependencies;
+			productName = Dependencies;
+			productReference = 3D46400222318AC2000FB12F /* Dependencies.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		3D463FE422318A30000FB12F /* Project object */ = {
+		3D463FF922318AC2000FB12F /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 1010;
 				ORGANIZATIONNAME = Depop;
 				TargetAttributes = {
-					3D463FEC22318A30000FB12F = {
+					3D46400122318AC2000FB12F = {
 						CreatedOnToolsVersion = 10.1;
 					};
 				};
 			};
-			buildConfigurationList = 3D463FE722318A30000FB12F /* Build configuration list for PBXProject "UserProfile" */;
+			buildConfigurationList = 3D463FFC22318AC2000FB12F /* Build configuration list for PBXProject "Dependencies" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 			);
-			mainGroup = 3D463FE322318A30000FB12F;
-			productRefGroup = 3D463FEE22318A30000FB12F /* Products */;
+			mainGroup = 3D463FF822318AC2000FB12F;
+			productRefGroup = 3D46400322318AC2000FB12F /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				3D463FEC22318A30000FB12F /* UserProfile */,
+				3D46400122318AC2000FB12F /* Dependencies */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		3D463FEB22318A30000FB12F /* Resources */ = {
+		3D46400022318AC2000FB12F /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -146,7 +126,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		3D463FE922318A30000FB12F /* Sources */ = {
+		3D463FFE22318AC2000FB12F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -156,7 +136,7 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		3D463FF322318A30000FB12F /* Debug */ = {
+		3D46400822318AC2000FB12F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -220,7 +200,7 @@
 			};
 			name = Debug;
 		};
-		3D463FF422318A30000FB12F /* Release */ = {
+		3D46400922318AC2000FB12F /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -278,7 +258,7 @@
 			};
 			name = Release;
 		};
-		3D463FF622318A30000FB12F /* Debug */ = {
+		3D46400B22318AC2000FB12F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
@@ -287,14 +267,14 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = UserProfile/Info.plist;
+				INFOPLIST_FILE = Dependencies/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.depop.UserProfile;
+				PRODUCT_BUNDLE_IDENTIFIER = com.depop.Dependencies;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 4.2;
@@ -302,7 +282,7 @@
 			};
 			name = Debug;
 		};
-		3D463FF722318A30000FB12F /* Release */ = {
+		3D46400C22318AC2000FB12F /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
@@ -311,14 +291,14 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = UserProfile/Info.plist;
+				INFOPLIST_FILE = Dependencies/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.depop.UserProfile;
+				PRODUCT_BUNDLE_IDENTIFIER = com.depop.Dependencies;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 4.2;
@@ -329,25 +309,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		3D463FE722318A30000FB12F /* Build configuration list for PBXProject "UserProfile" */ = {
+		3D463FFC22318AC2000FB12F /* Build configuration list for PBXProject "Dependencies" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				3D463FF322318A30000FB12F /* Debug */,
-				3D463FF422318A30000FB12F /* Release */,
+				3D46400822318AC2000FB12F /* Debug */,
+				3D46400922318AC2000FB12F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		3D463FF522318A30000FB12F /* Build configuration list for PBXNativeTarget "UserProfile" */ = {
+		3D46400A22318AC2000FB12F /* Build configuration list for PBXNativeTarget "Dependencies" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				3D463FF622318A30000FB12F /* Debug */,
-				3D463FF722318A30000FB12F /* Release */,
+				3D46400B22318AC2000FB12F /* Debug */,
+				3D46400C22318AC2000FB12F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 3D463FE422318A30000FB12F /* Project object */;
+	rootObject = 3D463FF922318AC2000FB12F /* Project object */;
 }

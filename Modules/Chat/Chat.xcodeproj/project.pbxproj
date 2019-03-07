@@ -10,6 +10,7 @@
 		3D463FD8223189F0000FB12F /* Chat.h in Headers */ = {isa = PBXBuildFile; fileRef = 3D463FD6223189F0000FB12F /* Chat.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		3D463FE0223189FF000FB12F /* Service.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D463FDF223189FF000FB12F /* Service.framework */; };
 		3D463FE2223189FF000FB12F /* Utils.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D463FE1223189FF000FB12F /* Utils.framework */; };
+		3D46400E22318AD5000FB12F /* Dependencies.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D46400D22318AD5000FB12F /* Dependencies.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -18,6 +19,7 @@
 		3D463FD7223189F0000FB12F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3D463FDF223189FF000FB12F /* Service.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Service.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3D463FE1223189FF000FB12F /* Utils.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Utils.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3D46400D22318AD5000FB12F /* Dependencies.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Dependencies.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -25,6 +27,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3D46400E22318AD5000FB12F /* Dependencies.framework in Frameworks */,
 				3D463FE0223189FF000FB12F /* Service.framework in Frameworks */,
 				3D463FE2223189FF000FB12F /* Utils.framework in Frameworks */,
 			);
@@ -62,6 +65,7 @@
 		3D463FDE223189FF000FB12F /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				3D46400D22318AD5000FB12F /* Dependencies.framework */,
 				3D463FDF223189FF000FB12F /* Service.framework */,
 				3D463FE1223189FF000FB12F /* Utils.framework */,
 			);

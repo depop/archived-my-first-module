@@ -18,6 +18,9 @@
       location = "container:"
       name = "Common">
       <FileRef
+         location = "group:Common/Dependencies/Dependencies.xcodeproj">
+      </FileRef>
+      <FileRef
          location = "group:Common/Service/Service.xcodeproj">
       </FileRef>
       <FileRef
