@@ -4,4 +4,11 @@
    <FileRef
       location = "group:App/App.xcodeproj">
    </FileRef>
+   <Group
+      location = "container:"
+      name = "Common">
+      <FileRef
+         location = "group:Common/Utils/Utils.xcodeproj">
+      </FileRef>
+   </Group>
 </Workspace>
