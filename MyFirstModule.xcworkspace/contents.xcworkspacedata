@@ -8,6 +8,9 @@
       location = "container:"
       name = "Modules">
       <FileRef
+         location = "group:Modules/UserProfile/UserProfile.xcodeproj">
+      </FileRef>
+      <FileRef
          location = "group:Modules/Chat/Chat.xcodeproj">
       </FileRef>
    </Group>
