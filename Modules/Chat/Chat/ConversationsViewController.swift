@@ -28,6 +28,7 @@ class ConversationsViewController: UITableViewController {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
+        navigationItem.title = "Your conversations"
         tableView.register(UITableViewCell.self, forCellReuseIdentifier: "default")
     }
     
