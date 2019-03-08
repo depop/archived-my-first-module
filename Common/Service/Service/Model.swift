@@ -23,3 +23,15 @@ public struct Product {
         self.identifier = identifier
     }
 }
+
+extension User: CustomDebugStringConvertible {
+    public var debugDescription: String {
+        return "<User \(identifier)>"
+    }
+}
+
+extension Product: CustomDebugStringConvertible {
+    public var debugDescription: String {
+        return "<Product \(identifier)>"
+    }
+}

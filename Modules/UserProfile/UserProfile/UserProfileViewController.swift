@@ -37,7 +37,7 @@ class UserProfileViewController: UIViewController {
         label.translatesAutoresizingMaskIntoConstraints = false
         label.numberOfLines = 0
         label.textColor = UIColor.yellow
-        label.text = "User: \(user.identifier)"
+        label.text = user.debugDescription
         label.font = UIFont.systemFont(ofSize: 30)
         let constraints = [
             label.topAnchor.constraint(equalTo: view.safeAreaLayoutGuide.topAnchor, constant: 10),

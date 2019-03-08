@@ -41,7 +41,7 @@ class MessagesViewController: UIViewController {
         label.translatesAutoresizingMaskIntoConstraints = false
         label.numberOfLines = 0
         label.font = UIFont.systemFont(ofSize: 30)
-        label.text = "User: \(user.identifier)\nProduct: \((product?.identifier ?? "none"))"
+        label.text = "\(user)\n\((product?.debugDescription ?? "no product"))"
         let constraints = [
             label.topAnchor.constraint(equalTo: view.safeAreaLayoutGuide.topAnchor, constant: 10),
             label.leadingAnchor.constraint(equalTo: view.safeAreaLayoutGuide.leadingAnchor, constant: 10),
